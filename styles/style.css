@@ -129,6 +129,9 @@
 }
 
 /* flower and plants section related styles */
+.mobile-inline {
+  display: inline;
+}
 .plants-lover-container {
   display: flex;
   justify-content: space-between;
@@ -298,8 +301,12 @@
     display: none;
   }
   .navbar {
-    flex-direction: column;
     margin: 15px;
+    flex-direction: column;
+  }
+  .navbar-item {
+    margin-top: 20px;
+    margin-left: 0px;
   }
   .banner {
     flex-direction: column-reverse;
@@ -308,6 +315,12 @@
     margin-top: 28px;
     margin-left: 15px;
     margin-right: 15px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-description {
+    font-size: 0.875rem;
   }
   .our-plants {
     margin-left: 15px;
@@ -319,11 +332,36 @@
     column-gap: 15px;
     margin-bottom: 50px;
   }
+  .card-title .item-price {
+    font-size: 1rem;
+  }
+  .our-plants-title {
+    font-size: 1.5rem;
+  }
+  .our-plants-description {
+    font-size: 0.875rem;
+  }
   .plants-lover-container {
     flex-direction: column;
     margin: 15px 15px 130px 15px;
   }
-
+  .flower-lover-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .mobile-inline {
+    display: none;
+  }
+  .flower-lover-description {
+    font-size: 0.875rem;
+    padding-left: 30px;
+  }
+  .latest-deal-title {
+    font-size: 1.5rem;
+  }
+  .latest-deal-description {
+    font-size: 0.875rem;
+  }
   .latest-deal {
     margin: 15px;
   }
@@ -349,6 +387,7 @@
   }
   .shop-now-link-three {
     font-weight: 500;
+    font-size: 1rem;
     color: #ffffff;
   }
   .colorful-branch-title {
@@ -364,6 +403,7 @@
   .subscribe-section input {
     padding: 12px 30px 12px 12px;
     border: none;
+    width: 100%;
   }
   .subscribe-section button {
     padding: 12px 19px;
@@ -373,5 +413,11 @@
     flex-direction: column;
     margin: 15px;
     margin-bottom: 100px;
+  }
+  .one-description {
+    font-size: 1rem;
+  }
+  .part-two .part-three {
+    font-size: 1rem;
   }
 }
