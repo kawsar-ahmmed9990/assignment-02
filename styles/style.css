@@ -246,6 +246,7 @@
   font-weight: 700;
   font-size: 3.125rem;
   color: #ffffff;
+  margin-bottom: 23px;
 }
 .subscribe-section input {
   padding: 15px 450px 15px 20px;
@@ -254,6 +255,28 @@
 .subscribe-section button {
   padding: 18px 50px;
   border: none;
+}
+/* footer related styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.footer li {
+  list-style: none;
+  margin-bottom: 26px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.one-description {
+  font-size: 1.375rem;
+}
+.part-four img {
+  margin-right: 24px;
 }
 /* responsive area */
 /* for mobile device */
