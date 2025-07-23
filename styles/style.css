@@ -133,16 +133,27 @@
   align-items: center;
   gap: 50px;
   margin-bottom: 130px;
+  position: relative;
 }
 .plants-lover-left-part {
   flex: 1;
 }
-.plants-lover-right-part {
-  flex: 1;
+.badge-logo {
+  position: absolute;
+  top: -130px;
+  right: 500px;
 }
 .flower-store-image {
   width: 100%;
 }
+.badge-logo img {
+  max-width: 288px;
+  width: 100%;
+}
+.plants-lover-right-part {
+  flex: 1;
+}
+
 .flower-lover-title {
   font-weight: 700;
   font-size: 3.125rem;
