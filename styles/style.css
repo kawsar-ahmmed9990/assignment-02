@@ -1,0 +1,50 @@
+/* google fonts link */
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.max-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.cool-gray {
+  color: #8987a1;
+}
+.color-primary {
+  color: #000000;
+}
+
+/* header section */
+/* navbar related styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-item {
+  list-style: none;
+  margin-right: 48px;
+}
+.navbar-link {
+  text-decoration: none;
+}
+.color-dark {
+  color: #252432;
+}
+.fas {
+  margin-right: 10px;
+}
+/* responsive area */
+/* for mobile device */
+@media screen and (max-width: 576px) {
+  .display-hide {
+    display: none;
+    margin-left: 0px;
+  }
+  .inline {
+    display: inline;
+  }
+}
