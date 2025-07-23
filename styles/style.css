@@ -2,12 +2,14 @@
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
 }
-
 * {
   margin: 0px;
   padding: 0px;
 }
 /* shared styles */
+.hide {
+  display: none;
+}
 .display-flex {
   display: flex;
 }
@@ -306,5 +308,70 @@
     margin-top: 28px;
     margin-left: 15px;
     margin-right: 15px;
+  }
+  .our-plants {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .our-plants-container {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    column-gap: 15px;
+    margin-bottom: 50px;
+  }
+  .plants-lover-container {
+    flex-direction: column;
+    margin: 15px 15px 130px 15px;
+  }
+
+  .latest-deal {
+    margin: 15px;
+  }
+  .latest-deal-description {
+    margin-bottom: 50px;
+  }
+  .shop-now-left {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shop-now {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shop-one {
+    height: 190px;
+  }
+  .shop-three {
+    height: 190px;
+  }
+  .shop-now-title-three {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .shop-now-link-three {
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .colorful-branch-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ffffff;
+    /* margin-bottom: 23px; */
+  }
+  .colorful-branch {
+    height: 275px;
+    width: 100%;
+  }
+  .subscribe-section input {
+    padding: 12px 30px 12px 12px;
+    border: none;
+  }
+  .subscribe-section button {
+    padding: 12px 19px;
+    border: none;
+  }
+  .footer {
+    flex-direction: column;
+    margin: 15px;
+    margin-bottom: 100px;
   }
 }
