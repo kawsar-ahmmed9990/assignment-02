@@ -154,6 +154,7 @@
 .badge-logo img {
   max-width: 288px;
   width: 100%;
+  animation: spin 6s linear infinite;
 }
 .plants-lover-right-part {
   flex: 1;
@@ -167,6 +168,16 @@
   font-size: 1.375rem;
   padding-left: 50px;
 }
+/* optional part section related styles */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* latest deals section related styles */
 .latest-deal-title {
   font-weight: 700;
