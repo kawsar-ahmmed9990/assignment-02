@@ -302,7 +302,6 @@
   }
   .navbar {
     margin: 15px;
-    flex-direction: column;
   }
   .navbar-item {
     margin-top: 20px;
